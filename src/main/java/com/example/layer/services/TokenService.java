@@ -38,7 +38,7 @@ public class TokenService {
 		try {
 			json = mapper.writer().writeValueAsString(tokenRequest);
 		} catch (JsonProcessingException e1) {
-			// TODO Auto-generated catch block
+
 			e1.printStackTrace();
 		}
 
